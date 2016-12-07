@@ -1,0 +1,160 @@
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+/*
+.item{ height: 100%; position: relative;  text-align: center; margin-top: 50px;}
+.bannerslideshow{position: absolute;top: 30%;right:5%;text-align:left;max-width: 80%;}
+
+.item h1{ font-size: 70px;}
+.item h2{ font-size: 32px; position: relative; margin-top: -20px;}
+.item h2:after{ content: ""; width: 57px; height: 7px; background: #fff; position: absolute; bottom: -10px; left: 50%; margin-left: -28px;}
+.item h2 span{  display: inline-block;}
+.item .banner7-des{ text-transform: uppercase; font-size: 22px; font-family: hindregular; font-weight: 400; margin-top: 22px;}
+.item .banner7-des span{  display: inline-block; letter-spacing: 2px; line-height: 30px;}
+.item h1{
+    -webkit-animation: bounceInLeft 1500ms ease-in-out;
+    -moz-animation: bounceInLeft 1500ms ease-in-out;
+    -ms-animation: bounceInLeft 1500ms ease-in-out;
+    animation: bounceInLeft 1500ms ease-in-out;
+
+}
+.item h2{
+    -webkit-animation: bounceInLeft 1800ms ease-in-out;
+    -moz-animation: bounceInLeft 1800ms ease-in-out;
+    -ms-animation: bounceInLeft 1800ms ease-in-out;
+    animation: bounceInLeft 1800ms ease-in-out;
+
+}
+.item h3{
+    -webkit-animation: bounceInLeft 2200ms ease-in-out;
+    -moz-animation: bounceInLeft 2200ms ease-in-out;
+    -ms-animation: bounceInLeft 2200ms ease-in-out;
+    animation: bounceInLeft 2200ms ease-in-out;
+
+}
+.item .sub-title{
+-webkit-animation: bounceInLeft 2200ms ease-in-out;
+-moz-animation: bounceInLeft 2200ms ease-in-out;
+-ms-animation: bounceInLeft 2200ms ease-in-out;
+animation: bounceInLeft 2200ms ease-in-out; 
+clear: both;
+display: inline-block;
+}
+.item .sub-title{
+font-size: 12px;
+padding: 11px 25px;
+border: 1px solid #000000;
+text-transform: uppercase;
+font-weight: bold;
+display: block;
+color: #000000;
+font-family: 'hindregular', sans-serif
+}
+
+.item .sub-title:hover{background-color:#94bce1;color: #000000}
+.item .banner7-des{
+    -webkit-animation: bounceInLeft 2000ms ease-in-out;
+    -moz-animation: bounceInLeft 2000ms ease-in-out;
+    -ms-animation: bounceInLeft 2000ms ease-in-out;
+    animation: bounceInLeft 2000ms ease-in-out;
+    clear: both;
+}
+.item img.img1 {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    max-width: none;
+    -webkit-animation: fadeInRight 1500ms ease-in-out;
+    -moz-animation: fadeInRight 1500ms ease-in-out;
+    -ms-animation: fadeInRight 1500ms ease-in-out;
+    animation: fadeInRight 1500ms ease-in-out;
+}
+.item img.img2 {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    max-width: none;
+    -webkit-animation: bounceInLeft 1500ms ease-in-out;
+    -moz-animation: bounceInLeft 1500ms ease-in-out;
+    -ms-animation: bounceInLeft 1500ms ease-in-out;
+    animation: bounceInLeft 1500ms ease-in-out;
+}
+
+.item h1, .item h2, .item h3{
+	text-transform: uppercase; 
+	color: #000000;
+	position: absolute;
+	left: 0px;
+	top: 180px;
+	width: 100%;
+	height: 100%;
+	background: none repeat scroll 0% 0% transparent;
+	font-size: 16px;
+	z-index: 8;
+}*/
